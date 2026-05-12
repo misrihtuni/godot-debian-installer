@@ -214,7 +214,7 @@ create_launcher() {
     echo "Terminal=false" >> $temp_shortcut_path
     echo "Type=Application" >> $temp_shortcut_path
     echo "Icon=$ICON_PATH" >> $temp_shortcut_path
-    echo "Category=Development;" >> $temp_shortcut_path
+    echo "Categories=Development;" >> $temp_shortcut_path
     echo "StartupNotify=true" >> $temp_shortcut_path
     echo "" >> $temp_shortcut_path
 
